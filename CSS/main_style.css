@@ -610,33 +610,35 @@ body {
 
 }
 
-.contact .col-md-4 h5 {
-    font-size: 18px;
+.contact .col-md-6:first-child h5 {
+    font-size: 22px;
     margin: 0;
 }
-.contact .col-md-4 small {
-    font-size: 12px;
+.contact .col-md-6:first-child small {
+    display: block;
+    width: 100%;
+    font-size: 18px;
     color: #d8d8d8 ;
 }
-.contact .col-md-4 .info {
+.contact .col-md-6:first-child .info {
     margin: 16px 0 0;
 }
-.contact .col-md-4 .info:before {
+.contact .col-md-6:first-child .info:before {
     content: "";
     position: absolute;
     right: 85px;
     width: 1px;
-    height: 330px;
+    height: 428px;
     background-color: #6f6f6f;
 }
-.contact .col-md-4 .info > div {
+.contact .col-md-6:first-child .info > div {
     padding: 12px 0;
     display: flex;
     justify-content: start;
     align-items: center;
     position: relative;
 }
-.contact .col-md-4  .info>div a {
+.contact .col-md-6:first-child  .info>div a {
     width: 60px;
     height: 42px;
     padding: 0 16px;
@@ -647,46 +649,62 @@ body {
     transition: 0.2s;
     
 }
-.contact .col-md-4 .info>div a:hover {
+.contact .col-md-6:first-child .info>div a:hover {
     color: #017e52;
 }
-.contact .col-md-4 .info .text  {
+.contact .col-md-6:first-child .info .text  {
     padding: 0 16px;
 }
-.contact .col-md-4 .info .text div:first-child {
-    font-size: 14px;
+.contact .col-md-6:first-child .info .text div:first-child {
+    font-size: 18px;
     color: #ffffff;
 }
-.contact .col-md-4 .info .text div:last-child {
-    padding-top: 4px !important;
-    font-size: 12px !important;
-    color: #d8d8d8 !important;
-    text-decoration: none !important;
+.contact .col-md-6:first-child .info .text div:last-child {
+    padding-top: 4px ;
+    font-size: 16px ;
+    color: #d8d8d8 ;
+    text-decoration: none ;
 }
-.contact .col-md-4 .social {
+.contact .col-md-6:first-child .info .text div:last-child a {
+    color: #d8d8d8;
+    font-size: 16px;
+    padding: 0;
+}
+.contact .col-md-6:first-child .info .text div:last-child a:hover {
+    color: #009e66;
+}
+.contact .col-md-6:first-child .social {
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-top: 1px solid #6f6f6f;
-    padding: 10px 0  ;
+    padding: 18px 0  ;
 }
-.contact .col-md-4 .social a {
+.contact .col-md-6:first-child .social a {
     color: #009e66;
     transition: 0.2s;
-    font-size: 18px;
+    font-size: 24px;
 }
-.contact .col-md-4 .social a:hover {
+.contact .col-md-6:first-child .social a:hover {
     color: #017e52;
 }
 
-.contact .col-md-8 {
+
+
+
+
+
+
+
+.contact .col-md-6:last-child {
     
 }
-.contact .col-md-8 img {
+.contact .col-md-6:last-child img {
     width: 95%;
     height: 100%;
     display: block;
     margin:  auto;
     border-radius: 6px;
-    opacity: 0.8;
+    opacity: 0.5;
+    
 }
