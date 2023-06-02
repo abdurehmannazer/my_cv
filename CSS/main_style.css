@@ -370,7 +370,7 @@ body {
 }
 .modal .info .txt3 .col-sm-8::before {
     content: "";
-    width: 50px;
+    width: 45px;
     height: 3px;
     border-radius: 16px;
     background-color: var(--dark4);
