@@ -197,8 +197,8 @@ body {
 .modal .modal-header button {
     margin: 0;
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 22px;
+    right: 12px;
     z-index: 999;
     border: none;
     padding: 0 ;
@@ -402,11 +402,10 @@ body {
 
 /*--------------------------------------------------- Resume */
 .Resume_row {
-    margin: 40px 0;
+    margin: 20px 0;
 }
 .Resume_row .col-md-6 {
     padding: 16px;
-    margin-top: 22px;
 
 }
 .Resume_row .col-md-6  h3 {
@@ -571,29 +570,38 @@ body {
     max-width: 350px;
     height: 560px;
 }
+.Portfolio .card .card-body {
+    padding: 12px;
+}
 .Portfolio .card img {
     height: 320px;
     opacity: 0.8;
     border: 6px solid var(--dark4);
 }
 .Portfolio .card .card-title {
-    font-size: 18px;
+    font-size: 20px;
 }
 .Portfolio .card .card-text {
-    height: 126px;
+    height: 145px;
     color: #9f9f9f;
-    font-size: 14px;
+    font-size: 16px;
     overflow-y: scroll;
-    margin: 0 0 12px;
+    margin: 0 0 8px;
 }
 .Portfolio .card a {
     background-color: #009e66;
     border: none;
+    font-size: 14px;
+    padding: 4px 10px;
 }
 .Portfolio .card a:hover {
     background-color: #017e52;
 }
 
+
+@media only screen and (max-width: 992px) {
+
+    }
 /*--------------------------------------------------- contact */
 .contact {
     margin: 40px 0;
