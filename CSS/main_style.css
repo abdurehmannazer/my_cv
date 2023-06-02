@@ -238,12 +238,10 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--light2);
 }
-
 .modal-header .btn-close {
     background-color: var(--light2);
     opacity: 1;
 }
-
 .modal .modal-header {
     border: none;
 }
@@ -304,7 +302,7 @@ body {
         font-size: 22px;
     }
     .modal .modal-body .info p {
-        font-size: 14px;
+        font-size: 16px;
     }
     .modal .info .txt2 span {
         margin-top: 14px;    
@@ -333,7 +331,7 @@ body {
 
 @media only screen and (max-width: 992px) {
     .modal .info .txt2 span {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
@@ -390,11 +388,11 @@ body {
 }
 @media only screen and (max-width: 992px) {
     .modal .info .txt3 .col-sm-8 a {
-        font-size: 18px;
+        font-size: 22px;
     }
     .modal .info .txt3 .col-sm-8::before {
         content: "";
-        bottom: 14px;   
+        bottom: 18px;   
     }
 }
 .modal .info .txt3 .col-sm-8 a:hover {
