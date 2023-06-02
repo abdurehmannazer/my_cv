@@ -58,7 +58,6 @@ body {
 }
 .navbar-nav li .nav-link:hover {
     color: var(--light1);
-    font-weight: bold;
 }
 .nav-link:focus,
 .nav-link:hover {
@@ -157,7 +156,7 @@ body {
 
 .my_name {
     color: var(--light1);
-    width: 411px;
+    width: fit-content;
     padding: 4px 10px;
     margin: 0;
     font-size: 60px;
@@ -169,60 +168,19 @@ body {
     top: calc(50%);
     left:   12%;
     opacity: 2;
-    overflow: hidden;
-    white-space: nowrap;
-    direction: rtl;
-    animation-name: anima_name;
-    animation-iteration-count: 1;
-    animation-duration: 3s;
-    animation-timing-function: ease ;
     
 }
 
-@keyframes anima_name {
-    from {
-        width: 0px;
-        padding: 4px 0;
-    }
-    
-    to {
-        width: 411px;
-        padding: 4px 10px;
-    }
-}
+
 @media only screen and (max-width: 992px) { 
     .my_name {
-            width: 275px;
-            padding: 4px 0;
-
-
-
+            width: fit-content;
             background-color: #272727ca;
             left: -10px;
             margin-left: calc(95% - 260px);
             font-size: 30px;
             font-weight: bolder;
-
-                white-space: nowrap;
-
-            animation-name: anima_name_small;
-            animation-iteration-count: 1;
-            animation-duration: 3s;
-            animation-timing-function: ease;
-    
         }
-        @keyframes anima_name_small {
-            from {
-                width: 0px;
-                padding: 4px 0;
-            }
-
-            to {
-                width: 275px;
-                padding: 4px 10px;
-            }
-        }
-
 
 }
 
