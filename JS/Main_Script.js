@@ -11,9 +11,5 @@ bar_button.onclick = function () {
         bar_icon.classList.remove("anima")
     } else {
         bar_icon.classList.add("anima")
-
     }
-
-
-
 }
