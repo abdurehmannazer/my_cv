@@ -367,21 +367,7 @@ body {
 .modal .info .txt3 div {
     padding: 0;
 }
-.modal .info .txt3 button {
-    background-color: #009e66;
-    width: fit-content;
-    padding: 10px 35px;
-    border-radius: 22px;
-    color: var(--light1);
-    margin: 16px 0 16px 16px;
-    text-align: center;
-    transition: 0.2s;
-    cursor:pointer;
-    border: none;
-}
-.modal .info .txt3 button:hover {
-    background-color: #017e52;
-}
+
 
 .modal .info .txt3 .col-sm-8 {
     margin: 16px 0 16px 16px;
@@ -576,12 +562,30 @@ body {
     
     }
 
+}
+.row3 {
+    text-align: center;
+}
+.row3 button {
+    background-color: #009e66;
+    width: fit-content;
+    padding: 10px 35px;
+    border-radius: 22px;
+    color: var(--light1);
+    margin: 16px 0 16px 16px;
+    text-align: center;
+    transition: 0.2s;
+    cursor: pointer;
+    border: none;
+}
 
+.row3 button:hover {
+    background-color: #017e52;
+}
 
-
-
-
-
+.row3 button a {
+    color: var(--light1);
+    text-decoration: none;
 }
 
 /*--------------------------------------------------- Portfolio */ 
