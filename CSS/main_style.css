@@ -197,7 +197,8 @@ body {
 .modal .modal-header button {
     margin: 0;
     position: fixed;
-    top: 25px;
+    top: 20px;
+    right: 20px;
     z-index: 999;
     border: none;
     padding: 0;
@@ -205,7 +206,7 @@ body {
     background-color: var(--dark2);
 }
 .modal .modal-header button i {
-    color: var(--light1);
+    color: #009e66;
     background-color: var(--dark2);
     font-size: 28px;
     border: none;
