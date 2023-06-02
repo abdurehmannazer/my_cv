@@ -201,14 +201,14 @@ body {
     right: 20px;
     z-index: 999;
     border: none;
-    padding: 0;
+    padding: 0 ;
     margin: 0;
-    background-color: var(--dark2);
+    background-color: rgba(250, 6, 6, 0);
 }
 .modal .modal-header button i {
     color: #009e66;
     background-color: var(--dark2);
-    font-size: 28px;
+    font-size: 35px;
     border: none;
     margin: 0;
     padding: 0;
@@ -425,7 +425,7 @@ body {
 }
 .Resume_row .col-md-6 h4 {
     margin: 0;
-    font-size: 18px;
+    font-size: 22px;
 }
 .Resume_row .col-md-6 h4::before {
     content: "";
@@ -449,6 +449,7 @@ body {
     border-bottom: 8px solid #3d3d3d34;
 }
 .Resume_row .col-md-6 small {
+    font-size: 18px;
     display: block;
     color: #d8d8d8;
     width: 100%;
@@ -467,11 +468,15 @@ body {
     
 }
 .Resume_row .col-md-6 ul li {
+    font-size: 18px;
     list-style: none;
     margin: 4px 0;
 
 }
 @media only screen and (max-width: 992px) {
+    .Resume_row .col-md-6 h3 {
+            font-size: 22px;
+        }
     .Resume_row .col-md-6 {
         padding: 0;
     }
@@ -480,21 +485,25 @@ body {
         
     }
     .Resume_row .col-md-6 h4 {
-        font-size: 16px;
+        font-size: 18px;
     }
     .Resume_row .col-md-6 h4::before ,
     .Resume_row .col-md-6 h4::after {
         top: 18px;
     }
     .Resume_row .col-md-6 small {
-        font-size: 12px;
+        font-size: 14px;
     }    
+    .Resume_row .col-md-6:last-child small {
+        font-size: 16px;
+    }    
+
     .Resume_row .col-md-6 ul {
-        font-size: 12px;
         padding: 0;
     }
     
     .Resume_row .col-md-6 ul li {
+        font-size: 16px;
         list-style: none;
         margin: 4px 0;
     }
@@ -505,6 +514,7 @@ body {
     list-style: disc;
 }
 .Resume_row.row2 .col-md-6 p{
+    font-size: 22px;
     margin-bottom: 12px;
 }
 .Resume_row.row2 .col-md-6 p:last-child {
@@ -512,7 +522,7 @@ body {
 }
 .Resume_row.row2 .col-md-6 p span {
     display: inline-block;
-    width: 120px;
+    width: 150px;
 }
 .Resume_row.row2 .col-md-6 p i {
     margin: 0 4px;
@@ -533,9 +543,26 @@ body {
     padding: 4px;
 
 }
+@media only screen and (max-width: 992px) { 
+    .Resume_row.row2 .col-md-6 p {
+            font-size: 18px;
+    }
+    .Resume_row.row2 .col-md-6 p span {
+        width: 120px;
+    }.Resume_row.row2 .col-md-6:last-child .Resume_txt1:last-child div p {
+        font-size: 16px;
+    
+    }
 
 
-/*--------------------------------------------------- Resume */ 
+
+
+
+
+
+}
+
+/*--------------------------------------------------- Portfolio */ 
 
 .Portfolio .card {
     background-color: #54545437;
