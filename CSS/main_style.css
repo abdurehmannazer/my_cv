@@ -588,7 +588,8 @@ body {
     padding: 12px;
 }
 .Portfolio .card img {
-    height: 320px;
+    height: 300px;
+    height: 300px;
     opacity: 0.8;
     border: 6px solid var(--dark4);
 }
