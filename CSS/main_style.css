@@ -227,7 +227,7 @@ body {
     
 }
 /* scrolbar  */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 5px;
 }
 ::-webkit-scrollbar-track {
@@ -240,7 +240,7 @@ body {
 }
 ::-webkit-scrollbar-thumb:hover {
     background: var(--light2);
-}
+} */
 .modal-header .btn-close {
     background-color: var(--light2);
     opacity: 1;
@@ -369,6 +369,7 @@ body {
 
 .modal .info .txt3 .col-sm-8 a {
     color: var(--light2);
+    color: #009e66;
     margin-left: 18px;
     font-size: 24px;
     transition: 0.2s;
