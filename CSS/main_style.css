@@ -116,19 +116,9 @@ body {
     padding: 0;
     font-size: 35px;
 }
-.navbar .navbar-toggler  .anima {
-    animation-name: example;
-    animation-iteration-count: infinite;
-    animation-duration: 4s;
-}
 
 
 
-
-@keyframes example {
-    0% {color: white;}
-    50% {color: var(--dark3);}
-}
 
 
 
@@ -238,13 +228,15 @@ body {
 }
 /* scrolbar  */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
 }
 ::-webkit-scrollbar-track {
     background: var(--dark1);
 }
 ::-webkit-scrollbar-thumb {
     background: var(--dark3);
+    background: #009e66;
+
 }
 ::-webkit-scrollbar-thumb:hover {
     background: var(--light2);
