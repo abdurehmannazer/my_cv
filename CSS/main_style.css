@@ -575,7 +575,7 @@ body {
     color: var(--light1);
     margin: 22px auto;
     max-width: 350px;
-    height: 560px;
+    /* height: 560px; */
 }
 .Portfolio .card .card-body {
     padding: 12px;
@@ -590,9 +590,9 @@ body {
     font-size: 20px;
 }
 .Portfolio .card .card-text {
-    height: 145px;
+    /* height: 145px; */
     color: #9f9f9f;
-    font-size: 16px;
+    font-size: 15px;
     overflow-y: scroll;
     margin: 0 0 8px;
 }
