@@ -9,8 +9,8 @@ const enBtn = document.getElementById("enBtn");
 
 
 let x = Math.floor((Math.random() * 1000) + 999);
-
-document.querySelectorAll("script").forEach((e) => e.src += x )
+document.querySelector(".Main_Script").src += x ;
+document.querySelector(".main_style").href += x
 
 
 if (lang != null) {
@@ -29,7 +29,9 @@ if (lang != null) {
 
 
 
-
+console.log("this is new")
+console.log("this is new")
+console.log("this is new")
 
 
 
