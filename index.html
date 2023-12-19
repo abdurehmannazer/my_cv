@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/main_style.css?v=4">
+    <link rel="stylesheet" href="CSS/main_style.css?v=2">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap"        rel="stylesheet">
-    <link rel="icon" href="media/header_icon.jpeg" style="border: 1px solid #009e67c5; border-radius: 50%;">
+    <link rel="icon" href="media/header_icon.jpeg?v=2" style="border: 1px solid #009e67c5; border-radius: 50%;">
     <title>المبرمج: عبدالرحمن طارق</title>
 </head>
 <body>
@@ -27,19 +27,23 @@
                 aria-label="Toggle navigation">
                 <span class="main_icon_bar"><i class="fa-solid anima fa-bars "></i></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
                 <ul class="navbar-nav ">
-                    <li class="nav-item">
-                        <button type="button" class="nav-link aboutMe" data-bs-toggle="modal" data-bs-target="#about_me" >نبذة عني</button>
+                    <li class="nav-item d-flex" >
+                        <button type="button" class="nav-link  text-center aboutMe" data-bs-toggle="modal" data-bs-target="#about_me" >نبذة عني</button>
                     </li>
-                    <li class="nav-item">
-                        <button type="button" class="nav-link resume" data-bs-toggle="modal" data-bs-target="#Resume">السيرة الذاتية</button>
+                    <li class="nav-item d-flex" >
+                        <button type="button" class="nav-link text-center  resume" data-bs-toggle="modal" data-bs-target="#Resume">السيرة الذاتية</button>
                     </li>
-                    <li class="nav-item">
-                        <button type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#Portfolio"> اعمالي</button>
+                    <li class="nav-item d-flex" >
+                        <button type="button" class="nav-link text-center  myProject" data-bs-toggle="modal" data-bs-target="#Portfolio"> اعمالي</button>
                     </li>
-                    <li class="nav-item">
-                        <button type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#contact">للتواصل</button>
+                    <li class="nav-item d-flex" >
+                        <button type="button" class="nav-link  text-center contactToMe" data-bs-toggle="modal" data-bs-target="#contact">للتواصل</button>
+                    </li>
+                    <li class="nav-item m-0" >
+                        <a class="btn btn-light px-1  m-1 langBtn"         id="arBtn" href="/">العربي</a>
+                        <a class="btn btn-outline-light px-1  m-1 langBtn" id="enBtn" href="/?lang=en">English</a>
                     </li>
                 </ul>
             </div>
@@ -48,7 +52,7 @@
     <!-- main page  -->
     <div class="main_image"></div>
     <!-- name  -->
-    <h1 class="my_name">عبدالرحمن<span> (Full-stack)  مبرمج تطبيقات الويب  </span></h1>
+    <h1 class="my_name" >عبدالرحمن<span> (Full-stack)  مبرمج تطبيقات الويب  </span></h1>
 </div>
 
 
@@ -65,16 +69,16 @@
                     <button type="button"  data-bs-dismiss="modal" aria-label="Close"><i class="fa-regular fa-circle-xmark"></i></button>
                 </div>
                 <div class="modal-body">   
-                    <h1>نبذة عني</h1>              
+                    <h1 class="aboutTitle">نبذة عني</h1>              
                 <div class="row px-0 about_me_row">
                     <div class="col-lg-4 px-0">
                         <div class="col-8 col-lg-12 name_image"><img src="media/ab.png"  width="80%" alt=""></div>
                     </div>                  
-                    <div class="col-lg-8 px-0 py-4 info">
-                        <h3>من أنا؟</h3>
-                        <div class="txt">
-                            <h3> عبدالرحمن محمد طارق <span>  مبرمج تطبيقات الويب (Full-Stack)</span></h3>
-                            <p>
+                    <div class="col-lg-8 px-0 py-4 info dir" >
+                        <h3 class="whoami">من أنا؟</h3>
+                        <div>
+                            <h3 class="myName"> عبدالرحمن محمد طارق <span>  مبرمج تطبيقات الويب (Full-Stack)</span></h3>
+                            <p class="myParaghraph">
                                 درست هندسة البرمجيات عن طريق التعلّم الذاتي من خلال الأكاديميات عبر الانترنت مثل أكاديمية الزيرو ويب سكول للمهندس أسامة الزيرو 
                                 واستفدت من عدة مصادر أخرى مثل موقع MDN web docs و w3schools وأيضاً من خلال البحث والتجارب <br>
                                 مكنتني  هذه الرحلة التعليمية على بناء مواقع إلكترونية تعتمد على تصميم وبرمجة الواجهات (FrontEnd)
@@ -94,21 +98,21 @@
                         <div class="row txt2">                            
                             <div class="col-md-6">
                                 <div>
-                                    <span>العــمــر:</span>
-                                    <span>27</span>
+                                    <span class="myAge">تاريخ الميلاد:</span>
+                                    <span>1997-01-01</span>
                                 </div>
                                 <div>
-                                    <span>العنوان:</span>
-                                    <span>المملكة العربية السعودية - الرياض</span>
+                                    <span class="myAddress">العنوان:</span>
+                                    <span class="myAddressDetail">المملكة العربية السعودية - الرياض</span>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div>
-                                    <span>الايميل:</span>
-                                    <span><a href="mailto:abdurehmannazer@gmail.com">abdurehmannazer@gmail.com</a></span>
+                                    <span class="myEmail">الايميل:</span>
+                                    <span ><a href="mailto:abdurehmannazer@gmail.com">abdurehmannazer@gmail.com</a></span>
                                 </div>
                                 <div>
-                                    <span>الجوال:</span>
+                                    <span class="myMobile">الجوال:</span>
                                     <span><a href="tel:0580647334">0580647334</a></span>
                                 </div>
                             </div>   
@@ -138,19 +142,28 @@
                     <button type="button"  data-bs-dismiss="modal" aria-label="Close"><i class="fa-regular fa-circle-xmark"></i></button>
                 </div>
                 <div class="modal-body">   
-                    <h1>السيرة الذاتية</h1>      
+                    <h1 class="resumeTitle">السيرة الذاتية</h1>      
 
-                    <div class="row Resume_row">
+                    <div class="row Resume_row dir" >
                         <div class="col-md-6">
-                            <h3>الخبرات</h3>
+                            <h3 class="experiencesTitle">الخبرات</h3>
                             <div class="Resume_txt1">
-                                <h4>مبرمج ومسؤول قسم تقنية المعلومات (IT)</h4>
-                                <small>في سفارة جمهورية أفغانستان بالرياض  <span>2023 - حتى الآن</span></small>
-                                <ul>
-                                    <li>إنشاء وتطوير الموقع الإلكتروني.</li>
-                                    <li>تطوير نظام تقديم طلبات جواز السفر عبر الموقع.</li>
-                                    <li>تنظيم وجدولة مواعيد المراجعين المقدمة عبر الموقع.</li>
-                                    <li>المتابعة والبحث عن طرق تحويل باقي الخدمات المقدمة من السفارة من الطريقة التقليدية الحضورية الى التقديم الإلكتروني عبر الموقع.</li>
+                                <h4 class="jopTitle1 font14">مبرمج ومسؤول قسم تقنية المعلومات (IT)</h4>
+                                <small class="jopTitle1Detail font12">في سفارة جمهورية أفغانستان بالرياض  <span>2023 - حتى الآن</span></small>
+                                <ul class="jop1Detail">
+                                    <li >- إنشاء وتطوير الموقع الإلكتروني.</li>
+                                    <li >- تطوير نظام تقديم طلبات جواز السفر عبر الموقع.</li>
+                                    <li >- تنظيم وجدولة مواعيد المراجعين المقدمة عبر الموقع.</li>
+                                    <li >- المتابعة والبحث عن طرق تحويل باقي الخدمات المقدمة من السفارة من الطريقة التقليدية الحضورية الى التقديم الإلكتروني عبر الموقع.</li>
+                                </ul>
+                            </div>
+                            <div class="Resume_txt1">
+                                <h4 class="jopTitle2 font14">مشاريع تقنية</h4>
+                                <small class="jopTitle2Detail font12">عملت على عدة مشاريع تقنية من خلال العمل عن بعد  <span>2023</span></small>
+                                <ul class="jop2Detail">
+                                    <li>- موقع إلكتروني لمكتب محاماة باستخدام  HTML , CSS , JS </li>
+                                    <li>- موقع إلكتروني لعرض مواقيت الصلاة بشكل يومي ومحدث باستخدام  HTML , CSS , JS وكذلك تقنية API  ومكتبة  Axios.</li>
+                                    <li>- موقعي الخاص هذا وفيه سيرتي الذاتية وعرض أعمالي.</li>
                                 </ul>
                             </div>
                             <div class="Resume_txt1">
@@ -163,6 +176,7 @@
                                     <li>متابعة تنفيذ الطلبات وأوامر الشراء والتسليم.</li>
                                 </ul>
                             </div>
+                            
                             <div class="Resume_txt1">
                                 <h4>إداري</h4>
                                 <small> في سفارة جمهورية أفغانستان بالرياض <span>2019 - 2018</span></small>
@@ -233,8 +247,8 @@
                         </div>
                     </div>   
 
-                    <div class="row Resume_row row2">
-                        <div class="col-md-6">
+                    <div class="row Resume_row row2 dir" >
+                        <div class="col-md-6" >
                             <h3>المهارات المهنية</h3>
                             <div class="Resume_txt1">
                                 <p>
@@ -586,7 +600,7 @@
 
 
 
-<script src="JS/bootstrap.min.js?v=2"></script>
-<script src="JS/Main_Script.js"  type="module"></script>
+<script src="JS/bootstrap.min.js?v=3"></script>
+<script src="JS/Main_Script.js?v=3"  type="module"></script>
 </body>
 </html>

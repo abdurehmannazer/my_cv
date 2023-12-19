@@ -4,15 +4,24 @@
 
 import english from './language/english.js';
 var lang =  new URLSearchParams(window.location.search).get('lang') == "en" ? english : null;
-
-
-if (lang != null) for (const key in lang) document.querySelector("." + key).innerHTML = lang[key];
-
-    
-    
+const arBtn = document.getElementById("arBtn");
+const enBtn = document.getElementById("enBtn");
 
 
 
+
+
+if (lang != null) {
+    enBtn.classList.replace("btn-outline-light" , "btn-light")
+    arBtn.classList.replace("btn-light" , "btn-outline-light" )
+    for (const key in lang) document.querySelector("." + key).innerHTML = lang[key];
+    document.querySelector(".my_name").style.textAlign  = "left";
+    document.querySelectorAll(".dir").forEach((e) => e.dir = "ltr");
+    document.querySelectorAll(".font20").forEach((e) => e.style.fontSize = "20px");
+    document.querySelectorAll(".font16").forEach((e) => e.style.fontSize = "16px");
+    document.querySelectorAll(".font14").forEach((e) => e.style.fontSize = "14px");
+    document.querySelectorAll(".font12").forEach((e) => e.style.fontSize = "12px");
+}
 
 
 
