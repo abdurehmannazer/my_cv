@@ -29,17 +29,6 @@ if (lang != null) {
 
 
 
-console.log("this is new")
-console.log("this is new")
-console.log("this is new")
-
-
-
-
-
-
-
-
 
 var bar_button = document.querySelector(".navbar-toggler");
 var bar_icon = document.querySelector(".navbar-toggler i");

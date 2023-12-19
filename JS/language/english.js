@@ -32,7 +32,7 @@ const mainText = {
     jopTitle1Detail: "At the Embassy of the AFG in Riyadh <br>2023 - Now",
     jop1Detail: 
         `
-            <li class="font12">- Developing the website: <a href="www.afgembassy.net" style="color: white;">afgembassy.net</a></li>
+            <li class="font12">- Developing the website: <a href="https://afgembassy.net/" style="color: white;">afgembassy.net</a></li>
             <li class="font12">- Developing a system for submitting passport applications via the website </li>
             <li class="font12">- Search for ways to convert the rest of the services provided by the embassy from the traditional in-person method to electronic submission via the website </li>
 
