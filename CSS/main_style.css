@@ -149,8 +149,8 @@ body {
 
 
 .my_name {
-    /* color: var(--light1); */
-    color: red;
+    color: var(--light1);
+    /* color: red; */
     width: fit-content;
     padding: 6px 10px;
     margin: 0;
