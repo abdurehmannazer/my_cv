@@ -1,7 +1,6 @@
 
 
 
-
 import english from './language/english.js';
 var lang =  new URLSearchParams(window.location.search).get('lang') == "en" ? english : null;
 const arBtn = document.getElementById("arBtn");
