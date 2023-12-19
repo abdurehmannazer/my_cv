@@ -8,7 +8,9 @@ const arBtn = document.getElementById("arBtn");
 const enBtn = document.getElementById("enBtn");
 
 
+let x = Math.floor((Math.random() * 1000) + 999);
 
+document.querySelectorAll("script").forEach((e) => e.src += x )
 
 
 if (lang != null) {
