@@ -1,4 +1,32 @@
-console.log("Hi")
+
+
+
+
+import english from './language/english.js';
+var lang =  new URLSearchParams(window.location.search).get('lang') == "en" ? english : null;
+
+
+if (lang != null) for (const key in lang) document.querySelector("." + key).innerHTML = lang[key];
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 var bar_button = document.querySelector(".navbar-toggler");
 var bar_icon = document.querySelector(".navbar-toggler i");
@@ -13,3 +41,4 @@ bar_button.onclick = function () {
         bar_icon.classList.add("anima")
     }
 }
+
