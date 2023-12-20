@@ -21,7 +21,9 @@ body {
 
 }
 
-
+li {
+    list-style: none !important;
+}
 
 /*--------------------------------------------------- nav  */
 .navbar {
