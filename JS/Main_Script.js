@@ -18,6 +18,7 @@ if (lang != null) {
     for (const key in lang) document.querySelector("." + key).innerHTML = lang[key];
     document.querySelector(".my_name").style.textAlign  = "left";
     document.querySelectorAll(".dir").forEach((e) => e.dir = "ltr");
+    document.querySelectorAll(".dir_rtl").forEach((e) => e.dir = "rtl");
     document.querySelectorAll(".font20").forEach((e) => e.style.fontSize = "20px");
     document.querySelectorAll(".font16").forEach((e) => e.style.fontSize = "16px");
     document.querySelectorAll(".font14").forEach((e) => e.style.fontSize = "14px");

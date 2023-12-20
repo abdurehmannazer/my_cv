@@ -637,14 +637,14 @@ body {
 .contact .col-md-6:first-child .info {
     margin: 16px 0 0;
 }
-.contact .col-md-6:first-child .info:before {
+/* .contact .col-md-6:first-child .info:before {
     content: "";
     position: absolute;
     right: 85px;
     width: 1px;
     height: 428px;
     background-color: #6f6f6f;
-}
+} */
 .contact .col-md-6:first-child .info > div {
     padding: 12px 0;
     display: flex;
