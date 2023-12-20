@@ -10,15 +10,23 @@ const mainText = {
     myParaghraph: 
         `
             Web developer (Full-Stack) <br>
-            I studied software engineering through self-learning from online academies such as ALzeroWebSchool Academy by engineer Osama Al Zero, and I benefited from several other sources such as the MDN web docs website and w3schools, as well as through research and experiments.
-            This educational journey enabled me to build and program websites based on designing and programming interfaces (FrontEnd) and creating backends with databases BackEnd and linking them to (API).
+
+            I studied software engineering through self-learning from online ALzeroWebSchool Academy by engineer Osama Al Zero, 
+            and I benefited from several other sources such as the MDN and w3schools, as well as through research and experiments.
+            This educational journey enabled me to build websites based on designing and programming interfaces (FrontEnd) and creating backends with databases (BackEnd).
             <br><br>
-            I worked on several technical projects, most notably the website of the Embassy of the Islamic Republic of Afghanistan in Riyadh. Nearly 7,000 visitor benefited from this site who applied for the issuance of a passport. The embassy was able to organize the numbers of its visitors, send review dates, and complete their procedures in an orderly manner. According to its daily capacity.
+
+            I worked on technical projects, most notably the website of Afghanistan Embassy in Riyadh. 
+            Nearly 7,000 visitor benefited from this website who applied for the issuance of a passport. The embassy was able to organize its visitors.
             <br><br>
+            
             I also worked in administrative positions for approximately 6 years
-            I was honored to work under the management of His Eminence Sheikh Dr. Abdul Mohsen Al-Qasim, Imam and Preacher of the Prophet’s Mosque, at the Holy Quran Academy in the Prophet’s Mosque as an administrative employee in the Examinations Division.
+            I was honored to work under the management of His Eminence Sheikh Dr. Abdul Mohsen Al-Qasim, Imam and Preacher of the Prophet’s Mosque, 
+            at the Holy Quran Academy in the Prophet’s Mosque as an administrative employee.
             <br><br>
-            I was honored to work under the management of the Ambassador and Special Envoy of His Excellency the President of the Islamic Republic of Afghanistan to the Kingdom, MR. Sayed Jalal Karim at the embassy in Riyadh as an administrative employee.
+
+            I was honored to work under the management of the Ambassador and Special Envoy of His Excellency the President of Afghanistan to KSA, 
+            MR. Sayed Jalal Karim at the embassy in Riyadh as an administrative employee.
 
         `,
     myAge: "Birth Date:",
@@ -29,17 +37,15 @@ const mainText = {
     resumeTitle: "Resume",
     experiencesTitle: "Professional experiences",
     jopTitle1: "administrator of the (IT) department",
-    jopTitle1Detail: "At the Embassy of the AFG in Riyadh <br>2023 - Now",
+    jopTitle1Detail: "At the Embassy of Afghanistan in Riyadh <br>2023 - Now",
     jop1Detail: 
         `
             <li class="font12">- Developing the website: <a href="https://afgembassy.net/" style="color: white;">afgembassy.net</a></li>
             <li class="font12">- Developing a system for submitting passport applications via the website </li>
-            <li class="font12">- Search for ways to convert the rest of the services provided by the embassy from the traditional in-person method to electronic submission via the website </li>
-
-        
+            <li class="font12">- Convert the rest of the services to submission via the website </li>        
         `,
     jopTitle2: "Projects",
-    jopTitle2Detail: "I created several websites for myself and for clients remotely",
+    jopTitle2Detail: "I created websites for myself and for clients remotely",
     jop2Detail: 
         `
             <li class="font12">- A website to display prayer times: <a href="https://abdurehmannazer.github.io/New-Prayer-Time/" style="color: white;">Prayer-Time</a> </li>
@@ -54,7 +60,7 @@ const mainText = {
             <li class="font12">- Data entry (accounting) & Preparing complete reports on purchases and payments. </li>
         `,
     jopTitle4: "Administrative",
-    jopTitle4Detail: "At the Embassy of the AFG in Riyadh. <br>2018 - 2019",
+    jopTitle4Detail: "At the Embassy of Afghanistan in Riyadh. <br>2018 - 2019",
     jop4Detail: 
         `
             <li class="font12">- Data entry into the Electronic Archives Committee. </li>
@@ -138,7 +144,7 @@ const mainText = {
         <br> (experimental copy). 
     `,
     contactTitle: "Contact with me",
-    contactDeatail: "I would be happy to communicate with you via:",
+    contactDeatail: "I would be happy to communicate via:",
     addresEng: "KSA - Riyadh",
     socialTitle: "Social Media"
 
