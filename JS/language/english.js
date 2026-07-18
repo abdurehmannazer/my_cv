@@ -3,7 +3,7 @@ const mainText = {
     resume: "Resume",
     myProject: "Projects",
     contactToMe: "contact",
-    my_name: "Abdulrahman<span>Web application developer</span></h1>",
+    my_name: "Abdulrahman<span>Web application developer</span>",
     whoami: "who am I ?",
     myName: "Abdulrahman Mohammad Tariq",
     aboutTitle: "About Me",
@@ -142,6 +142,20 @@ const mainText = {
         In this project, I used Frontend <br> technologies
         (HTML, CSS, JS, Bootstrap) 
         <br> (experimental copy). 
+    `,
+    ajwadTitle: "Ajwad Community Services",
+    ajwadDetail: 
+    `    
+        The official website of the National Association for Community Services (Ajwad), featuring content management tailored to the association's needs.
+        <br>
+        Technologies used: Frontend (HTML, CSS, JS, Bootstrap) with Laravel Backend.
+    `,
+    hospitalTitle: "Mental Hospital System",
+    hospitalDetail: 
+    `    
+        A comprehensive mental hospital management system for storing and managing data across various hospital departments.
+        <br>
+        Technologies used: Full-Stack (HTML, CSS, JS, Bootstrap, Laravel, MySQL).
     `,
     contactTitle: "Contact with me",
     contactDeatail: "I would be happy to communicate via:",
